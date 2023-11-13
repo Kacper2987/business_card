@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body{
+            background: url("https://cdn.pixabay.com/photo/2020/08/06/03/07/landmark-5466849_1280.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }   
+
+        .container{
+            margin: 60px auto;
+            padding: 30px;
+            background-color: black;
+            width: 400px;
+            height: 160px;
+
+        }
+        .business-card img{
+            float: left;
+            color: silver
+        }
+
+        .username , .email, .downoland-cv{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: white;
+        }
+        .username span{
+            border-bottom: 2px solid red;
+            padding-bottom: 4px;
+        }
+
+        .email{
+            font-size: 15px;
+        }
+
+        .downoland-cv a{
+            color: red;
+            font-size: 14px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="">
+            <p class="username">
+                <span>Daniel Fargo</span>
+            </p>
+            
+            <p class="email">
+                <span>Daniel@o2.pl</span>
+            </p>
+
+            <p class="downoland-cv">
+                <span>
+                    <a href="#">Download CV</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
